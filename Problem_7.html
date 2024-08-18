@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: black;
+        }
+        nav {
+            display: flex;
+            align-items: center;
+            width: 100%;
+            padding: 10px;
+            background-color: white;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+        .logo img {
+            height: 40px;
+        }
+        .nav-bar {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 30px;
+            margin-left: auto;
+            align-items: center;
+        }
+        .nav-bar img {
+            width: 25px;
+            margin: 0;
+            padding: 0;
+        }
+        .nav-bar span {
+            cursor: pointer;
+        }
+        .nav-bar span:nth-child(7) {
+            color: blue;
+            background-color: lightblue;
+            padding: 5px;
+            border-radius: 5px;
+        }
+        .nav-bar button {
+            border: 2px solid red;
+            color: red;
+            background-color: white;
+            border-radius: 5px;
+            padding: 10px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <div class="logo">
+            <img src="https://masai-website-images.s3.ap-south-1.amazonaws.com/logo.png" alt="Logo">
+        </div>
+        <div class="nav-bar">
+            <span>COURSES V</span>
+            <span>FEES & ISA</span>
+            <span>ABOUT US</span>
+            <span>HIRE FROM US</span>
+            <span>FAQ</span>
+            <span>EVENTS</span>
+            <span>REFER & EARN</span>
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTzkk2gbhF9Mly2DlR2bsWtOOHgQszqbU0FmA&usqp=CAU" alt="Icon">
+            <button>LOGIN</button>
+        </div>
+    </nav>
+</body>
+</html>

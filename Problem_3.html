@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Newton School Layout</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: #f9f9f9;
+        }
+
+        .container {
+            text-align: start;
+            width: 200%;
+            padding: 20px;
+            margin: auto;
+        }
+
+        h1 {
+            font-size: 2em;
+            margin-bottom: 20px;
+            text-align: start;
+        }
+
+        p {
+            font-size: 1.2em;
+            margin-bottom: 20px;
+            text-align: start;
+        }
+
+        .video-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: start;
+            gap: 10px;
+
+        }
+
+        .video-card {
+            background: #fff;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            overflow: hidden;
+            width: 350px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            text-align: left;
+        }
+
+        .video-card iframe {
+            width: 100%;
+            height: 250px;
+            display: block;
+        }
+
+        .video-card p {
+            font-size: 13px;
+            padding: 15px;
+            color:rgb(88, 86, 86)
+        }
+
+        .container p {
+            margin-bottom: 20px;
+        }
+
+        .container>p:nth-child(3) {
+            text-align: end;
+            margin-right: 200px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <h1>Winning with Newton School</h1>
+        <p>Watch what our learners have to say</p>
+        <p>
+            <>
+        </p>
+        <div class="video-container">
+            <div class="video-card">
+                <iframe width="550" height="315" src="https://www.youtube.com/embed/Gymk8oW4Hqk?si=BdsNyezFoJOiN40F"
+                    title="YouTube video player" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                <p>Prepare to be inspired as learners recount their journey to landing dream jobs at Indigo, powered by
+                    Newton School's innovative approach. Watch here!</p>
+            </div>
+            <div class="video-card">
+                <iframe width="550" height="315" src="https://www.youtube.com/embed/rbmA9GAA9-s?si=1ISopiWvShB3T7es"
+                    title="YouTube video player" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                <p>Aman was in for a surprise on his birthday. He landed his dream job on this special day, and his
+                    journey was nothing short of extraordinary. Watch here!</p>
+            </div>
+            <div class="video-card">
+                <iframe width="550" height="315" src="https://www.youtube.com/embed/yHzFVW_EHy4?si=1zQBFs7E5MaJK3yx"
+                    title="YouTube video player" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                <p>Explore Nikhil Choudhary's leap from IIT Guwahati research to Data Science, driven by its market
+                    potential. Watch here!</p>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

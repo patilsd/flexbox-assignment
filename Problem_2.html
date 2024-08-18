@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: black;
+        }
+        nav {
+            display: flex;
+            align-items: center;
+            width: 100%;
+            padding: 10px;
+            background: linear-gradient(to right, #41609a, #0c0232);
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+        .logo img {
+            height: 50px;
+            width: 100px;
+        }
+        .nav-bar {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 30px;
+            margin-left: auto;
+            align-items: center;
+            color: white;
+        }
+        .nav-bar img {
+            width: 25px;
+            margin: 0;
+            padding: 0;
+        }
+        .nav-bar span {
+            cursor: pointer;
+            display: flex;
+            align-items: center;
+        }
+        .new-badge {
+            background-color: #ffeb8f;
+            color: black;
+            padding: 2px 8px;
+            border-radius: 12px;
+            font-size: 0.75em;
+            font-weight: bold;
+            margin-left: 8px;
+        }
+        .nav-bar button {
+            border: none;
+            color: white;
+            background-color: blue;
+            border-radius: 5px;
+            padding: 10px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <div class="logo">
+            <img src="https://images.indianexpress.com/2022/12/NewtonSchool_LEAD.jpg?w=414" alt="Logo">
+        </div>
+        <div class="nav-bar">
+            <span>Data Science & AI</span>
+            <span>B.TECH in CS & AI<div class="new-badge">NEW</div></span>
+            <span>Newton Edge</span>
+            <span>Refer & Earn</span>
+            <span>More v</span>
+            <button>Sign up</button>
+        </div>
+    </nav>
+</body>
+</html>
